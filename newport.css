@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* CSS Document */
+*{ margin:0;
+padding:0
+}
+
+.cursor{
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 2px solid #c6c6c6;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: .0.5s;
+		z-index: 4
+}
+
+.cursor2{
+  position: fixed;
+  width: 12px;
+  height: 12px;
+  background-color:#FFFFFF;
+  border-radius: 50%;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: .15s;
+		z-index: 4
+}
+.sec1{
+	background-image:url("Webp.net-gifmaker (4).gif");
+	background-size: cover;
+	height: 100vh;
+}
+p{
+ font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	color: #FF4034;
+	text-align: center;
+	font-size: 25px;
+	padding:20px 0px 20px 0px;
+}
+.chu{
+ font-family: 'Monument Extended', sans-serif;
+color: #EBE4D8;
+	text-align: center;
+	font-size:75px;
+	display: inline;
+	line-height: 0.8;
+	transition: all .2s linear;
+
+}
+.chu2:hover{
+	color: #FF4034;
+
+}
+.sec2{
+	background-color: #000;
+	height: 100vh;
+}
+.a1{
+	text-decoration-line:line-through;
+	text-decoration-color: #EBE4D8
+}
+.intro{
+	padding-top: 30px
+}
+.a3{
+	color: #EBE4D8;
+	text-decoration: underline #EBE4D8;
+	transition: all .2s linear;
+}
+.a3:hover{
+	text-decoration: underline #000;
+	transition: all .2s linear;
+}
